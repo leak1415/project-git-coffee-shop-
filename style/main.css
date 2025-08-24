@@ -1,11 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
 *{
     margin: 0;
     padding: 0;
     font-family: "Montserrat", sans-serif;
     /* line-height: 1.6; */
 }
-
+body{
+    width: 100%;
+    height: fit-content;
+    overflow: scroll;
+}
 /* ================== header style ================== */
 header{
     position: sticky;
@@ -107,6 +116,7 @@ header{
 
 /* ============FEATURE SECTION STYLE============== */
 .spacial-feature-section {
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -150,14 +160,16 @@ header{
     border-radius: 24px;
     overflow: hidden;
     position: relative;
-    top: -70px;
-    animation: from-right 1s ease-out forwards;
-    animation-iteration-count: 1;
+    top: -140px;
+    animation: from-right 4s ease-out forwards ;
+    animation-timeline: view();
+    animation-range: entry 0% cover 50%;
+    animation-fill-mode: forwards;
     color: #392d2f;
 }
 @keyframes from-right{
     from{
-        transform: translateX(600px);
+        transform: translateX(50%);
         opacity: 0;
     }
     to{
@@ -201,7 +213,64 @@ header{
     color: #392D2F;
     font-weight: 600;
     transition: .4s linear;
+    margin-bottom: 32px;
 }
 #btn:hover{
     background: lightgray;
+}
+
+/* =============best brew============== */
+.bestBrew-section{
+    height: 100vh;
+    background: #654649;
+    padding: 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 56px;
+    color: white;
+}
+.bestBrew-section .left{
+    animation: show-image  ease-out forwards;
+    animation-timeline: view();
+    animation-range: entry 10% cover 70%;
+    animation-fill-mode: forwards;
+}
+@keyframes show-image {
+    from{
+        transform: translateX(-50%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.bestBrew-section .left img {
+    width: 400px;
+}
+.bestBrew-section .right {
+    line-height: 1.6;
+}
+.bestBrew-section .right h1 {
+    font-size: 40px;
+    font-weight: 400;
+    font-style: italic;
+}
+.bestBrew-section .right p {
+    margin: 12px 0 20px 0;
+    
+}
+#line{
+    margin-bottom: 20px;
+}
+#order-today {
+    padding: 12px;
+    background: #A8603D;
+    text-decoration: none;
+    font-weight: 600;
+    color: #fefefe;
+}
+.px-10 {
+    padding: 0 10px;
 }
