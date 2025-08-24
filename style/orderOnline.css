@@ -69,7 +69,7 @@ header{
 }
 .under-img img{
     width: 100%;
-    height: 200px;
+    height: 500px;
 }
 .text-img{
     display: flex;
@@ -82,4 +82,6 @@ header{
     font-size: larger;
     
 }
-
+/* @media screen and (max-width:800px) {
+    
+} */
