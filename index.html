@@ -5,17 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
 <body>
     <!-- ================= HEADER ================== -->
     <header>
         <nav class="container">
             <img src="img/logo.png" alt="">
-            <ul>
+            <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="pages/DonatePage.html">Donate</a></li>
                 <li><a href="pages/OrderOnlinePage.html">Order Online</a></li>
             </ul>
+            <!--======== menu taggle ===========-->
+            <div class="menu-toggle" id="menu-toggle">
+                <i class="fas fa-bars"></i>  <!-- hamburger -->
+            </div>
         </nav>
     </header>
     <!-- =======================MAIN====================== -->
@@ -27,9 +33,7 @@
                         Locally-Owned Coffee Shop Serving Cleveland
                     </p>
                     <h1>
-                        Brewing Hope &
-                        <br> Great Coffee in the
-                        <br> heart of Buckeye
+                        Brewing Hope & Great Coffee in the heart of Buckeye
                     </h1>
                     <p class="text-dsc">
                         Once a bar, now a beacon of ambition —<strong>The Tavern
@@ -170,5 +174,6 @@
             </div>
         </section>
     </main>
+    <script src="js/main.js"></script>
 </body>
 </html>

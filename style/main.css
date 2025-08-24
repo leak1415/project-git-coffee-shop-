@@ -52,6 +52,12 @@ header{
 .container ul li a:hover{
     color: #392d2f7f;
 }
+.menu-toggle {
+  display: none;
+  cursor: pointer;
+  font-size: 28px;
+  color: #392d2f;
+}
 
 /* =============== main style ==================== */
 
@@ -335,8 +341,7 @@ header{
 
 /* ==============CARD-CONTAINER=============== */
 .card-container {
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
+    display: flex;
     color: #fefefe;
 }
 #card-left {
@@ -346,6 +351,7 @@ header{
     background: #4B2F32;
 }
 .card {
+    width: 50%;
     padding: 40px 90px;
 }
 .card .text-dsc {
@@ -369,4 +375,70 @@ header{
     color: #fefefe;
     font-weight: 500;
     text-decoration: none;
+}
+
+/* ============Responsive=============== */
+/* =====teblet====== */
+.menu-toggle {
+  display: none;
+  cursor: pointer;
+  font-size: 28px;
+  color: #392d2f;
+}
+
+/* Mobile menu */
+@media (max-width: 768px) {
+    body{
+        max-width: 768px;
+    }
+    .container{
+        width: 100%;
+    }
+  .nav-links li{
+    display: none;
+  }
+  .menu-toggle {
+    display: flex;
+  }
+  .hero-section {
+    flex-direction: column;
+    height: fit-content;
+    padding: 20px 48px;
+    gap: 60px;
+    width: 768px;
+    align-items: center;
+  }
+  .hero-left{
+    width: 80%;
+  }
+  .spacial-feature-section{
+    flex-direction: column;
+    height: fit-content;
+    gap: 50px;
+  }
+  .spacial-feature-section .left {
+    width: 80%;
+  }
+  .spacial-feature-section .right{
+    position: static;
+    width: 80%;
+  }
+  .bestBrew-section,
+  .bakedGood-section {
+    flex-direction: column;
+    height: fit-content;
+    gap: 56px;
+    height: fit-content;
+    padding: 40px 100px;
+  }
+  .bestBrew-section .left,
+  .bestBrew-section .right {
+    width: 80%;
+  }
+  .card-container{
+    flex-direction: column;
+  }
+  .card{
+    width: 100%;
+  }
 }
