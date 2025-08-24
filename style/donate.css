@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&');
 *{
     margin: 0;
     padding: 0;
     font-family: "Montserrat", sans-serif;
 }
-
+/* Header start */
 header{
     background-color: rgb(247, 241, 241);
     padding: 0 100px;
@@ -38,3 +38,44 @@ header{
 .container ul li a:hover{
     color: #392d2f7f;
 }
+/* Header end */
+
+/* bg-donate start */
+.aside{
+    background: linear-gradient(#441e24a9, #392d2fd5),
+     url("../img/img-donate/background-donate.png");
+    background-size: cover;
+    background-position:  center;
+    position: relative;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+
+}
+.aside h1{
+    font-size: 88px;
+    font-family: "Merriweather", serif;
+    font-weight: 200;
+    font-style: italic;
+    color: rgba(202, 180, 180, 0.753);
+
+}
+/* bg-donate end */
+
+/* coffee-donate start */
+main{
+    background: goldenrod;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 100px;
+    gap: 40px;
+}
+.coffee-donate{
+    background-color: #392d2f;
+}
+.coffee-amount{
+    background-color: #ecbac2;
+}
+
+/* coffee-donate end */
