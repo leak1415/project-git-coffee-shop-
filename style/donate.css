@@ -65,24 +65,18 @@ header{
 
 /* coffee-donate start */
 main{
-    /* background: goldenrod; */
-    display: grid;
-<<<<<<< HEAD
-    grid-template-columns:1fr 1fr;
-    flex-wrap: wrap;
-    padding: 100px;
-}
-.coffee-donate{
-     line-height: 1.6;
-     width: 500px;
-=======
-    grid-template-columns: 1fr 1fr;
+    display: flex;
     padding: 100px;
     gap: 40px;
 }
 .coffee-donate{
      line-height: 1.6;
->>>>>>> 2470652406de0c93c83479177aaad2857d4f77a4
+     width: 500px;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+.coffee-donate{
+     line-height: 1.6;
 }
 .coffee-donate .top{
     margin-top: 0px;
@@ -94,10 +88,7 @@ main{
     line-height: 1.1;
 }
 .coffee-donate p{
-<<<<<<< HEAD
     flex-wrap: wrap;
-=======
->>>>>>> 2470652406de0c93c83479177aaad2857d4f77a4
     margin: 24px 0px;
     width: 500px;
     font-weight: 400;
@@ -105,10 +96,8 @@ main{
     color: #555;
 }
 .coffee-donate img{
-<<<<<<< HEAD
-=======
+
     width: 500px;
->>>>>>> 2470652406de0c93c83479177aaad2857d4f77a4
     height: 300px;
     border-top-right-radius: 48px;
     border-bottom-left-radius: 48px;
@@ -117,9 +106,8 @@ main{
 }
 
 .coffee-amount{
-<<<<<<< HEAD
     background-color: #ffffff;
-    padding: 40px;
+    padding: 30px 40px 10px 40px;
     border: solid 1.5px rgb(214, 214, 214);
     border-radius: 16px;
 }
@@ -151,7 +139,6 @@ main{
 .coffee-amount .dolla{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /* background-color: #555; */
     gap: 15px;
     margin-top: 20px;
 }
