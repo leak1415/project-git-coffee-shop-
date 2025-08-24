@@ -65,17 +65,43 @@ header{
 
 /* coffee-donate start */
 main{
-    background: goldenrod;
+    /* background: goldenrod; */
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 100px;
     gap: 40px;
 }
 .coffee-donate{
-    background-color: #392d2f;
+     line-height: 1.6;
 }
+.coffee-donate .top{
+    margin-top: 0px;
+    color: #cca22d;
+}
+.coffee-donate h1{
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1.1;
+}
+.coffee-donate p{
+    margin: 24px 0px;
+    width: 500px;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #555;
+}
+.coffee-donate img{
+    width: 500px;
+    height: 300px;
+    border-top-right-radius: 48px;
+    border-bottom-left-radius: 48px;
+    border-bottom-right-radius: 48px;
+    
+}
+
 .coffee-amount{
     background-color: #ecbac2;
 }
 
 /* coffee-donate end */
+
