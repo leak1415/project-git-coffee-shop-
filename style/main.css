@@ -389,7 +389,11 @@ header{
 /* Mobile menu */
 @media (max-width: 768px) {
     body{
-        max-width: 768px;
+        width: 768px;
+    }
+    main {
+        width: 768px;
+        overflow-x: hidden;
     }
     .container{
         width: 100%;
