@@ -6,9 +6,6 @@
     box-sizing: border-box;
     /* line-height: 1.6; */
 }
-body{
-    width: 1024px;
-}
 /* ================== header style ================== */
 header{
     background-color: rgb(247, 241, 241);
@@ -112,6 +109,9 @@ header{
     color: rgb(137, 36, 36);
     background: #fefefe;
 }
+.hero-right img{
+    width: 500px;
+}
 
 /* ============FEATURE SECTION STYLE============== */
 .spacial-feature-section {
@@ -192,6 +192,7 @@ header{
 .spacial-feature-section .right img {
     width: 100px;
     left: 37%;
+    border-radius: 100%;
 }
 .go-up-50{
     position: relative;
