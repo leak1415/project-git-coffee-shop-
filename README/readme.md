@@ -16,20 +16,30 @@ Follow the steps below to set up the project locally:
 
 1. Clone the repository  
    ```bash
-   git clone https://github.com/user-name(leak1415)/coffee-shop-website.git
-2. Open project in your brower
+   git clone https://github.com/user-name(leak1415)/coffee-shop.git
+2. 
+## Disploy link website
+Open project in your brower
 https://coffee-shop.vercel.app
 
 ## 👥 Team Members
-- **Ke Sothin**(leader of team members created Home page and hosting website).
-- **Hen narith**( create Donat page, navbar and footer).
-- **Sem Sreyleak**(Create Online oreder contance and write the report in readme).
+![@benztenz](https://contrib.rocks/image?repo=banz-tenz/web-class-exercise1)**Ke Sothin**(leader of team members created Home page and hosting website).
+
+![@Narith hen]()
+**Hen narith**( create Donat page, navbar and footer).
+
+
+![@leaklp](https://contrib.rocks/image?repo=leak1415/Learning-readme)**Sem Sreyleak**(Create Online oreder contance and write the report in readme).
 
 ## 🖼️ Screenshots
 - Homepage
-![alt text](image.png)
+![alt text](/README/image/photo_2025-08-28_09-00-58.jpg)
+![alt text](/README/image/photo_2025-08-28_09-01-11.jpg)
+![alt text](/README/image/photo_2025-08-28_09-01-15.jpg)
 - Donat page
-![alt text](image.png)
+![alt text](/README/image/photo_2025-08-28_09-13-43.jpg)
 - Order Online page
-![alt text](image.png)
+![alt text](/README/image/photo_2025-08-28_09-13-36.jpg)
+- footer
+![alt text](/README/image/photo_2025-08-28_09-18-12.jpg)
 

@@ -45,12 +45,14 @@ header{
     height: 80px;
 
 }
-/* .img{
-    width: 100%;
-} */
+.main h1{
+    margin: 16px 56px;
+}
+.main-container{
+    margin: 0px 56px;
+}
 .main .aside{
     padding: 56px 56px;
-    box-sizing: border-box;
     /* width: 100%; */
 }
 .main-container{
@@ -66,9 +68,11 @@ header{
 }
 .aside{
     margin-top: 40px;
+    /* margin-left: 42px; */
     display: grid;
     grid-template-columns: repeat(4,1fr);
     row-gap: 100px;
+    /* box-sizing: border-box; */
     /* width: 100%; */
 }
 .img1{
