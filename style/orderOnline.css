@@ -55,6 +55,14 @@ header{
     padding: 56px 56px;
     /* width: 100%; */
 }
+.aside .img1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.img1 .text-img{
+    text-align: center;
+}
 .main-container{
     display: flex;
     justify-content: space-between;
