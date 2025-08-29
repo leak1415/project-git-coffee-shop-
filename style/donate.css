@@ -198,9 +198,6 @@ main {
   .container{
     padding: 0px 30px;
   }
-   header .container ul{
-    display: none;
-  }
   header .container img{
     width: 80px;
     
@@ -216,9 +213,6 @@ main {
   }
 }
 @media (max-width: 500px){
-  header .container ul{
-    display: none;
-  }
   main .coffee-donate{
     width: 400px;
   }
