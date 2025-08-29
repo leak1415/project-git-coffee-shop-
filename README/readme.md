@@ -20,7 +20,7 @@ Follow the steps below to set up the project locally:
 2. 
 ## Disploy link website
 Open project in your brower
-https://coffee-shop.vercel.app
+https://project-git-coffee-shop-zeta.vercel.app/
 
 ## 👥 Team Members
 ![@benztenz](https://contrib.rocks/image?repo=banz-tenz/web-class-exercise1)**Ke Sothin**(leader of team members created Home page and hosting website).
